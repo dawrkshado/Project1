@@ -93,11 +93,12 @@ div{
 }
 .Read{
     position: absolute;
-    width: fit-content;
-    height: fit-content;
-    background-color: #ffc2d1;
+    display: flex;
+    width: inherit;
+    height:inherit;
+    justify-content: center;
+    align-items: end;
 }
-
 
 /** Elements **/
 #login{
@@ -129,4 +130,10 @@ div{
     position: relative;
     height: inherit;
 }
-
+#ReadLink{
+    margin-bottom:75px;
+    color: black;
+}
+#ReadLink:hover{
+    opacity: 0.7;
+}
