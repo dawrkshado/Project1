@@ -1,0 +1,132 @@
+div{  
+    width: 1250px;
+    font-family: "Bahnschrift";
+}
+.UpperBarContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    justify-self: center;
+}
+
+.DaisyText{
+    align-content: center;
+    justify-items:center ;
+    width: 800px;
+
+    height: inherit;
+}
+
+.textex{
+    height: fit-content;
+    width: fit-content;
+}
+
+.UpperBarContainer div{
+    width: 25%;
+}
+.UpperBarContainer button:hover{
+    opacity: 0.7;
+}
+
+.UpperLeft{
+    display: flex;  
+    justify-content: left;
+    align-items: center;
+    gap: 3%;
+}
+.UpperLeft button{
+    border-radius: 5px;
+    border:none;
+    height: 50%;
+    width: 12%;
+} 
+.UpperMiddle{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.UpperMiddle a{
+    text-decoration: none;
+    color: black;
+}
+.UpperMiddle a:hover{
+    opacity: .7;
+    text-decoration: underline;
+}
+
+.UpperRight{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    gap: 5%;
+
+}
+.UpperRight button{
+    width:5rem;
+    border-radius: 15px;
+    height: 40%;
+    width: 40%;
+    font: inherit;
+}
+.gf{
+    display: flex;
+    height: inherit;
+    width: fit-content;
+    justify-content:right;
+}
+
+.Container{
+    display: flex;
+    justify-self: center;
+    height:400px;
+}
+
+.daisy{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    z-index: -1;
+    align-content:end;
+}
+.Read{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    background-color: #ffc2d1;
+}
+
+
+/** Elements **/
+#login{
+    border-style:solid;
+}
+
+#signup{
+    border: none;
+    background-color: #ffc2d1;
+}
+#User-Button{
+    background-color: #474448;
+    color: #fffffc;
+}
+#Plus-Button{
+    background-color: #ffc2d1;
+}
+#daisyBg{
+    display: flex;
+    align-self:flex-end;
+    height: 300px;
+    width: inherit;
+    z-index: -1;
+    border-radius: 20px;
+    background-color: #474448;
+}
+
+#GirlfriendOverlay{ 
+    position: relative;
+    height: inherit;
+}
+
