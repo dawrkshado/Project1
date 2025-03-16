@@ -1,8 +1,19 @@
+
 div{  
     width: 1250px;
     font-family: "Bahnschrift";
+
 }
-.UpperBarContainer{
+body{
+    background-image: url(/resources/wife\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    font-family: "Bahnschrift";
+    padding-bottom: 5%;
+}
+.NavBar{
     display: flex;
     justify-content: space-between;
     height: 70px;
@@ -11,19 +22,19 @@ div{
 
 .DaisyText{
     align-content: center;
-    justify-items:center ;
-    width: 800px;
-
+    width: 65%;
     height: inherit;
 }
 .textex{
     height: fit-content;
     width: fit-content;
+    margin-left:  100px;
+    margin-top: 50px;
 }
-.UpperBarContainer div{
+.NavBar div{
     width: 25%;
 }
-.UpperBarContainer button:hover{
+.NavBar button:hover{
     opacity: 0.7;
 }
 .UpperLeft{
@@ -79,7 +90,9 @@ div{
     display: flex;
     justify-self: center;
     height:400px;
+
 }
+
 
 .daisy{
     position: absolute;
@@ -87,6 +100,7 @@ div{
     width: inherit;
     z-index: -1;
     align-content:end;
+
 }
 .Read{
     position: absolute;
@@ -132,5 +146,42 @@ div{
     color: black;
 }
 #ReadLink:hover{
+    opacity: 0.7;
+}
+#GlaizaHeader{
+    margin-bottom: -1rem;
+    font-size: 3rem;
+}
+.lowerPart{
+   justify-self: center;
+}
+.bottomLeft{
+    display: grid;
+    grid-template-areas: 
+    "closedEyes wifeBlacktop"
+    "ViewMore ViewMore"
+    ;
+    height: fit-content;
+    width: fit-content;
+    column-gap: 25px;
+    row-gap: 10px;
+
+}
+
+.bottomLeft img{
+    height: 200px;
+    width: 170px;
+    border-radius: 25px;
+}
+
+
+#ViewMore{
+    grid-column: 1/span 2;
+    border-radius: 10px;
+    border-style:groove;
+    height: 25px;
+    font-family: "Bahnschrift";
+}
+#ViewMore:hover{
     opacity: 0.7;
 }
