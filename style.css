@@ -16,19 +16,16 @@ div{
 
     height: inherit;
 }
-
 .textex{
     height: fit-content;
     width: fit-content;
 }
-
 .UpperBarContainer div{
     width: 25%;
 }
 .UpperBarContainer button:hover{
     opacity: 0.7;
 }
-
 .UpperLeft{
     display: flex;  
     justify-content: left;
