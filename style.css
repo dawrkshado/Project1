@@ -124,27 +124,35 @@ body{
      width: fit-content;
      column-gap: 25px;
      row-gap: 10px;
-     background-color: #ffc2d1;
      
  }
  .bottomCenter{
-    display:inline-grid;
-    justify-content: space-evenly;
-    background-color: #474448;
-    width: fit-content;
-}
-.a{
-    width: fit-content;
+    position: relative;
+    width: 250px;
+    display: grid;
+    row-gap: none;
+    justify-items: center;
+    margin-bottom: -10px;
+
 }
 .bottomCenter p{
     background-color:brown;
     width: fit-content ;
 
 }
+.bottomCenter div{
+    width:220px;
+    justify-items: center;
+    height: 80%;
+    border-radius: 15px;
+}
+.bottomCenter p{
+    font-size: .8rem;
+}
 
  .content{
     display: flex;
-    background-color: aqua;
+
  }
 
  .bottomLeft img{
@@ -202,8 +210,9 @@ body{
     grid-column: 1/span 2;
     border-radius: 10px;
     border-style:groove;
-    height: 25px;
+    height: 35px;
     font-family: "Bahnschrift";
+    font-size: large;
    
 }
 #ViewMore:hover{
@@ -211,7 +220,27 @@ body{
 }
 #Pictures{
     grid-column: 1/span 2;
-
+    
 }
 
+#h{
+
+    width: fit-content;
+
+}
+#i1{
+background-color: #ff8fab
+}
+#i2{
+background-color: #ffb3c6;
+}
+#i3{
+background-color: #ffc2d1;
+}
+#i4{
+background-color: #a4ac86;
+}
+#i5{
+background-color: #656d4a;
+}
 
