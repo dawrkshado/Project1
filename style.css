@@ -9,9 +9,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow-x: hidden;
     font-family: "Bahnschrift";
     padding-bottom: 5%;
+    width: 100%;
 }
 .NavBar{
     display: flex;
@@ -19,6 +19,7 @@ body{
     height: 70px;
     justify-self: center;
 }
+
 
 .DaisyText{
     align-content: center;
@@ -110,8 +111,50 @@ body{
     justify-content: center;
     align-items: end;
 }
+.lowerPart{
+    justify-self: center;
+ }
+ .bottomLeft{
+     display: grid;
+     grid-template-areas: 
+     "closedEyes wifeBlacktop"
+     "ViewMore ViewMore"
+     ;
+     height: fit-content;
+     width: fit-content;
+     column-gap: 25px;
+     row-gap: 10px;
+     background-color: #ffc2d1;
+     
+ }
+ .bottomCenter{
+    display:inline-grid;
+    justify-content: space-evenly;
+    background-color: #474448;
+    width: fit-content;
+}
+.a{
+    width: fit-content;
+}
+.bottomCenter p{
+    background-color:brown;
+    width: fit-content ;
 
-/** Elements **/
+}
+
+ .content{
+    display: flex;
+    background-color: aqua;
+ }
+
+ .bottomLeft img{
+     height: 200px;
+     width: 170px;
+     border-radius: 25px;
+ }
+ 
+
+/*********** Elements **********/
 #login{
     border-style:solid;
 }
@@ -134,7 +177,7 @@ body{
     width: inherit;
     z-index: -1;
     border-radius: 20px;
-    background-color: #474448;
+
 }
 
 #GirlfriendOverlay{ 
@@ -144,6 +187,8 @@ body{
 #ReadLink{
     margin-bottom:75px;
     color: black;
+    text-decoration-thickness: 3px;
+
 }
 #ReadLink:hover{
     opacity: 0.7;
@@ -152,28 +197,6 @@ body{
     margin-bottom: -1rem;
     font-size: 3rem;
 }
-.lowerPart{
-   justify-self: center;
-}
-.bottomLeft{
-    display: grid;
-    grid-template-areas: 
-    "closedEyes wifeBlacktop"
-    "ViewMore ViewMore"
-    ;
-    height: fit-content;
-    width: fit-content;
-    column-gap: 25px;
-    row-gap: 10px;
-
-}
-
-.bottomLeft img{
-    height: 200px;
-    width: 170px;
-    border-radius: 25px;
-}
-
 
 #ViewMore{
     grid-column: 1/span 2;
@@ -181,7 +204,14 @@ body{
     border-style:groove;
     height: 25px;
     font-family: "Bahnschrift";
+   
 }
 #ViewMore:hover{
     opacity: 0.7;
 }
+#Pictures{
+    grid-column: 1/span 2;
+
+}
+
+
