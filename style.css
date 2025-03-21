@@ -11,7 +11,8 @@ body{
     background-position: center;
     font-family: "Bahnschrift";
     padding-bottom: 5%;
-    width: 100%;
+
+    justify-items: center;
 }
 .NavBar{
     display: flex;
@@ -19,7 +20,6 @@ body{
     height: 70px;
     justify-self: center;
 }
-
 
 .DaisyText{
     align-content: center;
@@ -114,7 +114,7 @@ body{
 .lowerPart{
     justify-self: center;
  }
- .bottomLeft{
+ .bottom1stLeft{
      display: grid;
      grid-template-areas: 
      "closedEyes wifeBlacktop"
@@ -126,7 +126,7 @@ body{
      row-gap: 10px;
      
  }
- .bottomCenter{
+ .bottom2ndLeft{
     position: relative;
     width: 250px;
     display: grid;
@@ -135,18 +135,18 @@ body{
     margin-bottom: -10px;
 
 }
-.bottomCenter p{
-    background-color:brown;
+.bottom2ndLeft p{
     width: fit-content ;
+    margin-left: 10px ;
 
 }
-.bottomCenter div{
+.bottom2ndLeft div{
     width:220px;
-    justify-items: center;
+
     height: 80%;
     border-radius: 15px;
 }
-.bottomCenter p{
+.bottom2ndLeft p{
     font-size: .8rem;
 }
 
@@ -155,12 +155,31 @@ body{
 
  }
 
- .bottomLeft img{
+ .bottom1stLeft img{
      height: 200px;
      width: 170px;
      border-radius: 25px;
+
  }
- 
+
+ .bottomRight1{
+
+    width: fit-content;
+    align-content:end;
+
+ }
+ .bottomRight1 div{
+    width: fit-content;
+
+ }
+
+ .bottomRight1 img{
+    height: 135px;
+    width: 130px;
+    border-radius: 15px;
+
+ }
+
 
 /*********** Elements **********/
 #login{
@@ -244,3 +263,11 @@ background-color: #a4ac86;
 background-color: #656d4a;
 }
 
+#duoPic1Con{
+
+    margin-bottom: 30px;
+ }
+ #duoPic2Con{
+
+ }
+ 
