@@ -152,6 +152,7 @@ body{
 
  .content{
     display: flex;
+    gap:50px;
 
  }
 
@@ -163,13 +164,15 @@ body{
  }
 
  .bottomRight1{
-
+    display: grid;
     width: fit-content;
     align-content:end;
+    gap: 35px;
 
  }
  .bottomRight1 div{
     width: fit-content;
+
 
  }
 
@@ -177,7 +180,10 @@ body{
     height: 135px;
     width: 130px;
     border-radius: 15px;
+ }
 
+ .bottomRight2 div{
+    width: fit-content;
  }
 
 
@@ -263,11 +269,4 @@ background-color: #a4ac86;
 background-color: #656d4a;
 }
 
-#duoPic1Con{
 
-    margin-bottom: 30px;
- }
- #duoPic2Con{
-
- }
- 
