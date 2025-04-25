@@ -1,0 +1,114 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Josefin Sans';
+    background-color: #FCF7F8;
+}
+.navBar{
+    display:flex;
+    justify-content:space-evenly;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.navBarLinks{
+    display: flex;
+    gap: 25%;
+}
+
+.navBarLinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+
+}
+.navBarLinks a:hover{
+    color: #a31621;
+
+}
+.navBar button:hover{
+    opacity: .5;
+}
+
+.Icons button{
+    border: none;
+    width:fit-content;
+    background-color: #FCF7F8;
+    
+}
+
+.Icons{
+    display: flex;
+    height:100px ;
+    width:150px ;
+    gap: 20%;
+    justify-content: center;
+}
+ 
+#noBGlogo{
+    width: 10vw;
+}
+
+.secondDivision{  
+    z-index: 1;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    background-color: aquamarine;
+    height: 560px;
+}
+
+#dish{
+    position:absolute;
+    z-index: 1;
+}
+
+.Text{
+    z-index: 1;
+    align-self: center;
+
+}
+.firstSentence{
+    font-size: 6rem;
+    color: #FCF7F8;
+}
+
+#secondSentence{
+    font-size: 4rem;
+}
+
+.searchBox{
+    height: fit-content;
+    width: fit-content;
+    justify-self: center;
+}
+
+#searchBar{
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 300px;
+    }
+
+#searchButton{
+    width: 25px;
+    height: 30px;
+    color: #a31621;
+    border-radius: 15px;
+    position: absolute;
+    right:535px;
+   
+}
+.sBar{ align-self: center;}
+
+
+
+.searchContainer{
+    background-color: black;
+    height: fit-content;
+    width: fit-content;
+    justify-self: center;
+    justify-items: right;
+}  
+
